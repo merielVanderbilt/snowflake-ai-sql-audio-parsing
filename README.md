@@ -4,6 +4,7 @@ This project demonstrates how to use Snowflake AI_SQL functions to transcribe au
 By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
 
 Contents
+
 📓 Notebook
 AI_SQL Demo (YYYY-MM-DD).ipynb
 A Snowflake Notebook-style workflow containing:
