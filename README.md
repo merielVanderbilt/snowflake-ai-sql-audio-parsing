@@ -1,12 +1,12 @@
 # snowflake-ai-sql-audio-parsing
-This project demonstrates how to use Snowflake AI_SQL functions to transcribe audio, mine unstructured data, translate text, redact sensitive content, and compare image embeddings — all inside the Snowflake Notebook UI.
+This project demonstrates how to use Snowflake AISQL functions to transcribe audio, mine unstructured data, translate text, redact sensitive content, and compare image embeddings — all inside the Snowflake Notebook UI.
 
 By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
 
 Contents
 
 📓 Notebook
-AI_SQL Demo (YYYY-MM-DD).ipynb
+AISQL Demo (YYYY-MM-DD).ipynb
 A Snowflake Notebook-style workflow containing:
 
 Audio transcription using AI_TRANSCRIBE
