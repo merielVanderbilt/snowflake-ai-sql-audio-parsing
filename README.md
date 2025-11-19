@@ -2,10 +2,9 @@
 This project demonstrates how to use Snowflake AISQL functions to transcribe audio, mine unstructured data, translate text, redact sensitive content, and compare image embeddings — all inside the Snowflake Notebook UI.
 
 By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
-
+<br/><br/>
 Contents
 <br/><br/>
-
 📓 Notebook
 AISQL Demo (YYYY-MM-DD).ipynb
 A Snowflake Notebook-style workflow containing:
@@ -19,9 +18,7 @@ Redaction using AI_REDACT
 Image parsing and embedding comparison
 
 Note: GitHub renders this notebook as a Jupyter file, so Snowflake-specific metadata (like named cell references) does not always display cleanly.
-
-
-
+<br/><br/>
 🎧 Audio Files (audio_files/)
 
 Open-source audio recordings from LibriVox:
@@ -29,18 +26,14 @@ Hansel and Gretel
 Rumpelstiltskin
 
 Used to demonstrate transcription and text processing.
-
-
-
+<br/><br/>
 🖼 Image Files (img_files/)
 
 AI-generated images related to the audio stories, used to showcase:
 
 image parsing
 similarity comparison
-
-
-
+<br/><br/>
 Requirements: Snowflake
 A trial or full Snowflake account is required.
 Sign up: https://signup.snowflake.com/
