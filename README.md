@@ -19,6 +19,7 @@ Image parsing and embedding comparison
 
 Note: GitHub renders this notebook as a Jupyter file, so Snowflake-specific metadata (like named cell references) does not always display cleanly.
 
+
 🎧 Audio Files (audio_files/)
 
 Open-source audio recordings from LibriVox:
@@ -26,6 +27,7 @@ Hansel and Gretel
 Rumpelstiltskin
 
 Used to demonstrate transcription and text processing.
+
 
 🖼 Image Files (img_files/)
 
