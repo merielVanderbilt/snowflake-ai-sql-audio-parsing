@@ -4,7 +4,7 @@ This project demonstrates how to use Snowflake AISQL functions to transcribe aud
 By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
 
 Contents
-
+<br>
 
 📓 Notebook
 AISQL Demo (YYYY-MM-DD).ipynb
