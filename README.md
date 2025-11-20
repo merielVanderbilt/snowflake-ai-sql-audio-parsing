@@ -47,9 +47,7 @@ It runs fine with an XS warehouse.
 Local / GitHub Environment
 No local environment setup is required for running the Snowflake notebook itself.
 
-**Hints & Notes**
-The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews.
-
-When in Snowflake, these appear clearly and allow SQL cells to reference each other via templates like {{CELL_NAME}}.
+**Second reminder...**
+The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow SQL cells to reference each other via templates like {{CELL_NAME}}.
 
 Project started 11/14/25
