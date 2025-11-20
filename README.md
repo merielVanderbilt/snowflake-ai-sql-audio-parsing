@@ -37,7 +37,7 @@ Used to demonstrate transcription and text processing.
 AI-generated images related to the stories, used to showcase: image parsing and similarity comparison
 <br/><br/>
 ## Requirements
-: Snowflake
+**Snowflake** account only 
 <br/><br/>
 A trial or full Snowflake account is required.
 
