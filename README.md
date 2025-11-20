@@ -1,11 +1,15 @@
 # snowflake-ai-sql-audio-parsing
 This project demonstrates how to use Snowflake AISQL functions to transcribe audio, mine unstructured data, translate text, redact sensitive content, and compare image embeddings — all inside the Snowflake Notebook UI.
 
-By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
+By [Meriel O'Conor](https://www.linkedin.com/in/merieloconor/)
 <br/><br/>
 **Contents**
+- [Notebook](#notebook)
+- [Audio Files](#audio-files)
+- [Image Files](#image-files)
+- [Requirements](#requirements)
 <br/><br/>
-📓 **Notebook**
+## 📓 Notebook
 AI_SQL Demo 11_19_25.ipynb
 
 A Snowflake Notebook-style workflow containing:
@@ -20,17 +24,17 @@ Image parsing and embedding comparison
 
 **Note**: GitHub renders this notebook as a Jupyter file, so **Snowflake-specific metadata** (like named cell references) **does not always display cleanly**.
 <br/><br/>
-🎧 **Audio Files** (audio_files/)
+## 🎧 Audio Files (audio_files/)
 
 Open-source audio recordings from LibriVox: Hansel and Gretel, Rumpelstiltskin
 
 Used to demonstrate transcription and text processing.
 <br/><br/>
-🖼 **Image Files** (img_files/)
+## 🖼 Image Files (img_files/)
 
 AI-generated images related to the stories, used to showcase: image parsing and similarity comparison
 <br/><br/>
-**Requirements**: Snowflake
+## Requirements: Snowflake
 <br/><br/>
 A trial or full Snowflake account is required.
 
@@ -50,4 +54,4 @@ No local environment setup is required for running the Snowflake notebook itself
 **Second reminder...**
 The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow SQL cells to reference each other via templates like {{CELL_NAME}}.
 
-Project started 11/14/25
+_Project started 11/14/25_
