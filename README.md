@@ -57,7 +57,7 @@ No local environment setup is required for running the Snowflake notebook itself
 
 **Second reminder...**
 The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow SQL cells to reference each other via templates like {{CELL_NAME}}.
-
+<br/><br/>
 ## How to Run
 1. Open Snowflake Notebook UI
 2. Select 'import .ipynb file' and upload the notebook
