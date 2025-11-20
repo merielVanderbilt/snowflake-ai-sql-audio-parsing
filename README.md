@@ -7,6 +7,7 @@ By Meriel O'Conor https://www.linkedin.com/in/merieloconor/
 <br/><br/>
 📓 **Notebook**
 AI_SQL Demo 11_19_25.ipynb
+
 A Snowflake Notebook-style workflow containing:
 
 Audio transcription using AI_TRANSCRIBE
@@ -27,14 +28,15 @@ Used to demonstrate transcription and text processing.
 <br/><br/>
 🖼 **Image Files** (img_files/)
 
-AI-generated images related to the audio stories, used to showcase:
-
-image parsing
-similarity comparison
+AI-generated images related to the stories, used to showcase: image parsing and similarity comparison
 <br/><br/>
 **Requirements**: Snowflake
+<br/><br/>
 A trial or full Snowflake account is required.
-Sign up: https://signup.snowflake.com/. Takes 1 minute to create a free trial account that lasts 30 Days and comes with $400 of credit.
+
+Sign up: https://signup.snowflake.com/. 
+
+Takes 1 minute to create a free trial account that lasts 30 Days and comes with $400 of credit.
 
 The notebook runs successfully using:
 ACCOUNTADMIN on a trial account
