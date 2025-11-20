@@ -8,6 +8,7 @@ By [Meriel O'Conor](https://www.linkedin.com/in/merieloconor/)
 - [Audio Files](#audio-files)
 - [Image Files](#image-files)
 - [Requirements](#requirements)
+- [How to Run](#how-to-run)
 <br/><br/>
 ## Notebook
 📓 AI_SQL Demo 11_19_25.ipynb
@@ -56,5 +57,10 @@ No local environment setup is required for running the Snowflake notebook itself
 
 **Second reminder...**
 The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow SQL cells to reference each other via templates like {{CELL_NAME}}.
+
+## How to Run
+1. Open Snowflake Notebook UI
+2. Select 'import .ipynb file' and upload the notebook
+3. Run cells in order
 
 _Project started 11/14/25_
