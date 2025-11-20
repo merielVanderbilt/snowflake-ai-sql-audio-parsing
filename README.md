@@ -18,7 +18,7 @@ Redaction using AI_REDACT
 
 Image parsing and embedding comparison
 
-Note: GitHub renders this notebook as a Jupyter file, so Snowflake-specific metadata (like named cell references) does not always display cleanly.
+**Note**: GitHub renders this notebook as a Jupyter file, so **Snowflake-specific metadata** (like named cell references) **does not always display cleanly**.
 <br/><br/>
 🎧 **Audio Files** (audio_files/)
 
