@@ -9,7 +9,7 @@ By [Meriel O'Conor](https://www.linkedin.com/in/merieloconor/)
 - [Image Files](#image-files)
 - [Requirements](#requirements)
 <br/><br/>
-## 📓 Notebook
+## Notebook 📓 
 AI_SQL Demo 11_19_25.ipynb
 
 A Snowflake Notebook-style workflow containing:
@@ -24,13 +24,13 @@ Image parsing and embedding comparison
 
 **Note**: GitHub renders this notebook as a Jupyter file, so **Snowflake-specific metadata** (like named cell references) **does not always display cleanly**.
 <br/><br/>
-## 🎧 Audio Files (audio_files/)
+## Audio Files 🎧 (audio_files/)
 
 Open-source audio recordings from LibriVox: Hansel and Gretel, Rumpelstiltskin
 
 Used to demonstrate transcription and text processing.
 <br/><br/>
-## 🖼 Image Files (img_files/)
+## Image Files 🖼 (img_files/)
 
 AI-generated images related to the stories, used to showcase: image parsing and similarity comparison
 <br/><br/>
