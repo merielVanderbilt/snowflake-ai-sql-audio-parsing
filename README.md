@@ -70,9 +70,9 @@ For example this cell is called AI_EXTRACT_CELL and can be referenced later in a
     "name": "AI_EXTRACT_CELL"
    },
    "outputs": [],
-   "source": "",
+   "source": "SELECT\n    AI_EXTRACT(\n        text => AUDIO_VARCHAR,\n        responseFormat => {\n            'character': 'Who are the main characters in the story?',\n            'author': 'Who wrote the story?',\n            'denouement': 'What is the story\\'s denouement?'\n        }\n    )\nFROM SNOWFLAKE_LEARNING_DB.AUDIO_TESTING.RAW_AUDIO;\n",
    "execution_count": null
-  },
+  }
 
 You can now integrate Snowflake with GitHub and directly pull and push via the Snowflake UI https://docs.snowflake.com/en/developer-guide/git/git-overview. I did this and it worked well.
 <br/><br/>
