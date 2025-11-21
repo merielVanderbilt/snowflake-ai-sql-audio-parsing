@@ -56,7 +56,20 @@ Local / GitHub Environment
 No local environment setup is required for running the Snowflake notebook itself.
 
 **Other notes**
-The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow Python cells to reference SQL cells by calling the name of the cell. You can see the cell metadata name in the RAW code view.
+The notebook relies on named SQL cells, which are not rendered visibly in standard Jupyter previews. When in Snowflake, these appear clearly and allow Python cells to reference SQL cells by calling the name of the cell. You can see the cell metadata name in the CODE notebook view. 
+For example this cell is called AI_EXTRACT_CELL and can be referenced later in a Python cell by just writing AI_EXTRACT_CELL.
+
+  {
+   "cell_type": "code",
+   "id": "efad8002-e764-4eb6-98c3-1897930c92db",
+   "metadata": {
+    "language": "sql",
+    "name": "AI_EXTRACT_CELL"
+   },
+   "outputs": [],
+   "source": "",
+   "execution_count": null
+  },
 
 You can now integrate Snowflake with GitHub and directly pull and push via the Snowflake UI https://docs.snowflake.com/en/developer-guide/git/git-overview. I did this and it worked well.
 <br/><br/>
